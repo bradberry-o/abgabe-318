@@ -221,7 +221,7 @@ namespace SBB
             }
 
             // make API call and store res to _connections
-            Connections _connections = _transportHanlder.GetConnections(startLocationInputCB.Text, destionationInputCB.Text, num, trainTime, trainTime, 20);
+            Connections _connections = _transportHanlder.GetConnections(startLocationInputCB.Text, destionationInputCB.Text, num, trainTime, trainTime, 16);
 
             // clear view for the new items
             mainViewLsv.Items.Clear();
